@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Crossing Wand</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Source+Sans+Pro:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="container">
+            <h1>Crossing Wand</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="features.html">Features</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+                <a href="https://play.google.com/store/apps/details?id=com.kiloin.crosswalk_wand&pcampaignid=web_share"
+                    class="playstore-button" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+                        <path
+                            d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+                        </path>
+                    </svg>
+                    <span class="texts">
+                        <span class="text-1">GET IT ON</span>
+                        <span class="text-2">Google Play</span>
+                    </span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us! We are here to help and answer any questions you may have.</p>
+
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123 Safety Street, Safe City, SC 12345</p>
+            <p><strong>Email:</strong> <a href="mailto:support@crossingwand.com">support@crossingwand.com</a></p>
+            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        </div>
+
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="sticky-footer">
+        <div class="container">
+            <p>&copy; 2024 Crossing Wand. All rights reserved.</p>
+            <nav>
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms and Conditions</a> |
+                <a href="copyright.html">Copyright</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>
